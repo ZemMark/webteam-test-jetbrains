@@ -1,4 +1,116 @@
-@custom-media --xlg screen and (max-width: 1540px);
+/* @custom-media --xlg screen and (max-width: 1540px);
 @custom-media --lg screen and (max-width: 1276px);
 @custom-media --md screen and (max-width: 1000px);
-@custom-media --sm screen and (max-width: 640px);
+@custom-media --sm screen and (max-width: 640px); */
+:root{
+  
+  --small-text-size: 15px; 
+  --paragraph-size: 18px;
+  --primary-common-font-size: 20px; 
+  --border-color: rgba(39, 40, 44, 0.4);
+}
+a{
+  text-decoration: none;
+}
+body{
+  background-color: var(--wt-color-white-60);
+}
+
+header{
+  height: 71px;
+  position: relative;
+  /* padding: 0 118px; */
+}
+.section-header{
+  position: relative;
+}
+.section-header li+li{
+  margin-left: 24px;
+}
+
+.section-header::after{
+  top:100%;
+  left: 0;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-color);
+
+}
+.logo{
+  margin-right: auto;
+  font-size: var(--primary-common-font-size);
+}
+.header__list--button{
+    width: 134px;
+      height: 32px;
+      margin: 0 0 0 24px;
+      padding: 4px 19px 4px 18px;
+      border-radius: 25px;
+      border: solid 1px var(--border-color);
+      text-align: center;
+}
+.section-hero{
+  display: flex;
+}
+.section-hero h1{
+  width: 512px;
+    height: 64px;
+    margin: 96px 194px 24px 48px;
+    font-family: Gotham;
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: -1.5px;
+    color: #27282c;
+}
+.section-hero h2{
+  width: 385px;
+    height: 80px;
+    margin: 24px 25px 48px 48px;
+    font-family: Gotham;
+    font-size: 28px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #27282c;
+}
+.section-hero button{
+  width: 174px;
+    height: 48px;
+    margin: 48px 42px 24px 48px;
+    padding: 12px 19px 12px 27px;
+    border-radius: 25px;
+    background-color: #f76707;
+    border: transparent;
+
+    /* width: 128px; */
+  /* height: 24px; */
+  font-family: SFProText;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}
+.section-hero p{
+  width: 310px;
+    height: 24px;
+    margin: 24px 0 152px 52px;
+    font-family: SFProText;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: rgba(39, 40, 44, 0.7);
+}
