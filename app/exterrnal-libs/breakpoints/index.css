@@ -64,10 +64,8 @@ header{
       border: solid 1px var(--border-color);
       text-align: center;
 }
-.section-hero{
-  display: flex;
-}
-.section-hero h1{
+
+.hero__title{
   width: 512px;
     height: 64px;
     margin: 96px 194px 24px 48px;
@@ -80,7 +78,7 @@ header{
     letter-spacing: -1.5px;
     color: #27282c;
 }
-.section-hero h2{
+.hero__subtitle{
   width: 385px;
     height: 80px;
     margin: 24px 25px 48px 48px;
@@ -93,7 +91,7 @@ header{
     letter-spacing: normal;
     color: #27282c;
 }
-.section-hero button{
+.hero__button{
   width: 174px;
     height: 48px;
     margin: 48px 42px 24px 48px;
@@ -114,7 +112,7 @@ header{
   text-align: center;
   color: #fff;
 }
-.section-hero p{
+.hero__subtext{
   width: 310px;
     height: 24px;
     margin: 24px 0 152px 52px;
@@ -130,7 +128,7 @@ header{
 
 .hero-img{
     width: 484px;
-      margin-right: 130px ;
+      /* margin-right: 130px ; */
       object-fit: contain;
 }
 
@@ -180,4 +178,56 @@ header{
 }
 .product--select__item{
   width: 50%;
+
+}
+.product--select__item:not(:last-child),
+.product--select__item:not(:nth-child(9)){
+  margin-bottom: 34px;
+}
+
+.product-select--title{
+  /* width: 93px; */
+    /* height: 28px; */
+    margin: 18px 1px 0 6px;
+    font-family: SFProText;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--dark-black-font);
+}
+.soft-title{
+  width: 484px;
+  margin-bottom: 45px;
+    font-family: SFProText;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color:var(--gray-font);
+}
+.hard-title{
+  margin-bottom: 24px;
+  margin-top: 40px;
+    font-family: Gotham;
+    font-size: 31px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -0.5px;
+    color: var(--dark-black-font);
+}
+.container{
+  width: 50%;
+}
+/* .product__list--second{
+  width: 400px;
+} */
+.product__list--second li:nth-child(3){
+  margin-right: 0;
 }
