@@ -8,6 +8,8 @@
   --paragraph-size: 18px;
   --primary-common-font-size: 20px; 
   --border-color: rgba(39, 40, 44, 0.4);
+  --dark-black-font: #27282c;
+  --gray-font: rgba(39, 40, 44, 0.7);
 }
 a{
   text-decoration: none;
@@ -38,9 +40,20 @@ header{
   background-color: var(--border-color);
 
 }
+.nav__link--link{
+  color: var(--gray-font);
+}
 .logo{
   margin-right: auto;
   font-size: var(--primary-common-font-size);
+  width: 79px;
+    font-family: SFProText;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: var(--dark-black-font);
 }
 .header__list--button{
     width: 134px;
@@ -113,4 +126,10 @@ header{
     line-height: 1.6;
     letter-spacing: normal;
     color: rgba(39, 40, 44, 0.7);
+}
+
+.hero-img{
+    width: 484px;
+      margin-right: 130px ;
+      object-fit: contain;
 }
