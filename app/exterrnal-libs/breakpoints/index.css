@@ -128,6 +128,7 @@ header{
 
 .hero-img{
     width: 484px;
+    
       /* margin-right: 130px ; */
       object-fit: contain;
 }
@@ -155,6 +156,7 @@ header{
 
 .product-section{
   display: flex;
+  height: 1581px;
 }
 .product--select__list{
   width: 495px;
