@@ -149,10 +149,17 @@ header {
   /* padding: 16px 10px 8px 1px; */
   background-color: rgba(255, 255, 255, 0.8);
 }
+.product__item{
+  margin: 0 63px 48px 0;
+}
+.product__item:nth-child(4),
+.product__item:nth-child(8){
+  margin-right: 0;
+}
 
 .product__image {
-  width: 72px;
-  height: 72px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
   opacity: .5;
   cursor: pointer;
