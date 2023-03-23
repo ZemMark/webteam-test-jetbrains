@@ -85,7 +85,7 @@ header {
   font-style: normal;
   line-height: 1.07;
   letter-spacing: -1.5px;
-  color: #27282c;
+  color: var(--dark-black-font);
 }
 
 .hero__subtitle {
@@ -99,7 +99,7 @@ header {
   font-style: normal;
   line-height: 1.43;
   letter-spacing: normal;
-  color: #27282c;
+  color: var(--dark-black-font);
 }
 
 .hero__button {
@@ -346,4 +346,39 @@ header {
     line-height: 1.56;
     letter-spacing: normal;
     color: var(--easy-font-gray-color);
+}
+.forth-section__text{
+  width: 296px;
+  font-family: Gotham;
+  font-size: 28px;
+  font-weight: 300;
+  font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: var(--dark-black-font);
+}
+.forth-section__list{
+  width: calc(100% - 296px);
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 96px;
+}
+.forth-section__firs-div{
+  
+  padding-top: 96px;
+}
+.wraper {
+  gap: 20px;
+}
+.wraper p{
+  width: 458px;
+    font-family: SFProText;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--dark-black-font);
 }
