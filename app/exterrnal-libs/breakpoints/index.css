@@ -321,10 +321,13 @@ header {
     color: var(--accent-color);
 }
 .third-section__second-column{
-  margin-top: 96px;
-  margin-bottom: 54px;
+  width: 100%;
+}
+.third-section__second-column img{
+  margin-right: 96px;
 }
 .third-section__title{
+  padding-top: 96px;
   font-family: Gotham;
     font-size: 28px;
     font-weight: 300;
