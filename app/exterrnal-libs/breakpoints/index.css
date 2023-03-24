@@ -401,3 +401,17 @@ header {
     letter-spacing: -0.5px;
     color: var(--dark-black-font);
 }
+.faq__link{
+  color: var(--accent-color);
+
+}
+.downlaold__link{
+  font-family: SFProText;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: var(--accent-color);
+}
