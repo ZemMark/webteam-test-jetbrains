@@ -363,7 +363,8 @@ header {
   width: calc(100% - 296px);
   display: flex;
   flex-wrap: wrap;
-  row-gap: 96px;
+      column-gap: 245px;
+      row-gap: 34px;
 }
 .forth-section__firs-div{
   
@@ -381,5 +382,22 @@ header {
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
+    /* color: var(--dark-black-font); */
+}
+.faq__item{
+  width: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 175px;
+}
+.faq__title{
+  font-family: Gotham;
+    font-size: 31px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.29;
+    letter-spacing: -0.5px;
     color: var(--dark-black-font);
 }
