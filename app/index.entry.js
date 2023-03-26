@@ -10,3 +10,22 @@ if (!supportsCssVars()) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {});
+
+const refs = {
+  dropdownTriger: document.querySelector(".dropdown"),
+  listToShow: document.querySelector(".dropdown__list"),
+};
+refs.dropdownTriger.addEventListener("click", (e) => {
+  if (e.currentTarget.classList.contains("dropdown")) {
+    refs.listToShow.classList.toggle("is-shown");
+    console.log("click");
+  }
+  e.stopPropagation();
+});
+
+window.addEventListener("click", () => {
+  if (refs.listToShow.classList.contains("is-shown")) {
+    refs.listToShow.classList.remove("is-shown");
+    console.log("window", refs.listToShow);
+  }
+});
