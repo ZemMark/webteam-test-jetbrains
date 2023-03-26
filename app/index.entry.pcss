@@ -203,6 +203,7 @@ header {
   border-radius: 25px;
   background-color: var(--accent-color);
   border: transparent;
+  cursor: pointer;
 
   /* width: 128px; */
   /* height: 24px; */
@@ -229,6 +230,9 @@ header {
 }
 
 .hero-img {
+  @media (--md) {
+    width: 463px;
+  }
   width: 484px;
 
   /* margin-right: 130px ; */
@@ -262,6 +266,8 @@ header {
 
 .product--select__list {
   width: 495px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .product-select__button {
@@ -303,7 +309,7 @@ header {
 }
 
 .soft-title {
-  margin-top: 152px;
+  margin-top: 230px;
   width: 484px;
   font-family: SFProText;
   font-size: 18px;
@@ -314,7 +320,12 @@ header {
   letter-spacing: normal;
   color: var(--gray-font);
 }
-
+.first-block {
+  margin-top: 45px;
+}
+.second-block {
+  margin-top: 100px;
+}
 .hard-title {
   margin-bottom: 24px;
   margin-top: 40px;
